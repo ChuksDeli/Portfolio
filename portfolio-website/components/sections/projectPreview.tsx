@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 
 type Project = {
   title: string;
@@ -55,7 +55,7 @@ const internshipProjects: Project[] = [
   },
 ];
 
-const container = {
+const container: Variants = {
   hidden: { opacity: 0 },
   show: {
     opacity: 1,
@@ -63,7 +63,7 @@ const container = {
   },
 };
 
-const leftItem = {
+const leftItem: Variants = {
   hidden: { opacity: 0, x: -40 },
   show: {
     opacity: 1,
@@ -72,7 +72,7 @@ const leftItem = {
   },
 };
 
-const rightItem = {
+const rightItem: Variants = {
   hidden: { opacity: 0, x: 40 },
   show: {
     opacity: 1,
@@ -156,7 +156,6 @@ function ProjectBlock({ project, index }: { project: Project; index: number }) {
           </Link>
         </motion.div>
       </motion.div>
-
       <motion.div variants={isEven ? rightItem : leftItem}>
         <Link
           href={project.link}
@@ -170,6 +169,15 @@ function ProjectBlock({ project, index }: { project: Project; index: number }) {
             height={600}
             className="w-full h-auto rounded-lg transform transition duration-500 ease-in-out group-hover:scale-105"
           />
+
+          <div className="absolute inset-x-0 bottom-0 h-1/2 bg-linear-to-t from-black/95 to-black/0" />
+          <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-60 transition-opacity duration-500 ease-in-out" />
+
+          <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500">
+            <div className="bg-white/80 px-6 py-4 rounded-full flex items-center justify-center shadow-lg transform scale-90 group-hover:scale-100 transition duration-300">
+              <span className="text-black text-2xl font-bold">→</span>
+            </div>
+          </div>
         </Link>
       </motion.div>
     </motion.section>

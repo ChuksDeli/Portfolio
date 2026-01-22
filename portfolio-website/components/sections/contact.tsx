@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import {
   Github,
   Linkedin,
@@ -10,7 +10,7 @@ import {
   Music,
 } from "lucide-react";
 
-const container = {
+const container: Variants = {
   hidden: {},
   show: {
     transition: {
@@ -19,7 +19,7 @@ const container = {
   },
 };
 
-const item = {
+const item: Variants = {
   hidden: { opacity: 0, y: 40 },
   show: {
     opacity: 1,

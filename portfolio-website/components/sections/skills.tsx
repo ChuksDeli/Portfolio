@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 
 export default function Skills() {
   const skills = [
@@ -18,21 +18,20 @@ export default function Skills() {
     "Responsive UI",
   ];
 
-  const container = {
+  const container: Variants = {
     hidden: { opacity: 0 },
     show: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.08,
-        delayChildren: 0.15,
+        staggerChildren: 0.2,
       },
     },
   };
 
-  const item = {
+  const item: Variants = {
     hidden: {
       opacity: 0,
-      y: 20,
+      y: 40,
     },
     show: {
       opacity: 1,

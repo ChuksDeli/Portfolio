@@ -1,14 +1,14 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 
 export default function Navbar() {
-  const container = {
+  const container: Variants = {
     hidden: { opacity: 0 },
     show: { opacity: 1, transition: { staggerChildren: 0.18 } },
   };
 
-  const items = {
+  const items: Variants = {
     hidden: { opacity: 0, y: 30 },
     show: {
       opacity: 1,
