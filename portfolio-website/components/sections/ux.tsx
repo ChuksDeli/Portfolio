@@ -25,7 +25,7 @@ export default function UXPhilosophy() {
       id="ux-philosophy"
       className="py-32 px-6 md:px-12 bg-neutral-900/10"
     >
-      <div className="max-w-[1000px] mx-auto text-center">
+      <div className="max-w-250 mx-auto text-center">
         <motion.h2
           variants={item}
           className="text-3xl text-white md:text-4xl font-bold mb-12"

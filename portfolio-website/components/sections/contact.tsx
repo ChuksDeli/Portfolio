@@ -35,7 +35,6 @@ export default function Contact() {
       className="py-32 md:py-48 px-6 md:px-12 bg-neutral-900/30"
     >
       <div className="max-w-400 mx-auto">
-        {/* HEADER */}
         <motion.div
           variants={container}
           initial="hidden"
@@ -57,7 +56,6 @@ export default function Contact() {
           </motion.h2>
         </motion.div>
 
-        {/* CONTACT GRID */}
         <motion.div
           variants={container}
           initial="hidden"
@@ -65,7 +63,6 @@ export default function Contact() {
           viewport={{ amount: 0.3 }}
           className="grid grid-cols-1 md:grid-cols-3 gap-1 max-w-5xl mx-auto"
         >
-          {/* EMAIL */}
           <motion.a
             variants={item}
             href="mailto:chukwudelight718@gmail.com"
@@ -80,7 +77,6 @@ export default function Contact() {
             </div>
           </motion.a>
 
-          {/* GITHUB */}
           <motion.a
             variants={item}
             href="https://github.com/ChuksDeli"
@@ -96,10 +92,9 @@ export default function Contact() {
             </div>
           </motion.a>
 
-          {/* LINKEDIN */}
           <motion.a
             variants={item}
-            href="https://www.linkedin.com/in/delitech-web-development-b09895341"
+            href="https://www.linkedin.com/in/delight-chukwu-b09895341?utm_source=share_via&ut/delight-chukwu-b09895341?utm_source=share_via&ut"
             target="_blank"
             className="group bg-black p-10 md:p-12 hover:bg-neutral-900 transition-colors duration-700 block"
           >
@@ -110,10 +105,9 @@ export default function Contact() {
             <div className="text-sm text-neutral-300 font-light">Delitech</div>
           </motion.a>
 
-          {/* TIKTOK */}
           <motion.a
             variants={item}
-            href="YOUR_TIKTOK_LINK"
+            href="https://www.tiktok.com/@deli_tech?_r=1&_t=ZS-93Hfw0toahs"
             target="_blank"
             className="group bg-black p-10 md:p-12 hover:bg-neutral-900 transition-colors duration-700 block"
           >
@@ -122,14 +116,13 @@ export default function Contact() {
               TIKTOK
             </div>
             <div className="text-sm text-neutral-300 font-light">
-              @yourhandle
+              @deli_tech
             </div>
           </motion.a>
 
-          {/* INSTAGRAM */}
           <motion.a
             variants={item}
-            href="YOUR_INSTAGRAM_LINK"
+            href="https://www.instagram.com/delitechweb?igsh=azR2MDZ0bWJlZ2s="
             target="_blank"
             className="group bg-black p-10 md:p-12 hover:bg-neutral-900 transition-colors duration-700 block"
           >
@@ -138,14 +131,13 @@ export default function Contact() {
               INSTAGRAM
             </div>
             <div className="text-sm text-neutral-300 font-light">
-              @yourhandle
+              @delitechweb
             </div>
           </motion.a>
 
-          {/* WHATSAPP */}
           <motion.a
             variants={item}
-            href="https://wa.me/234XXXXXXXXXX"
+            href="https://wa.me/2347045960039"
             target="_blank"
             className="group bg-black p-10 md:p-12 hover:bg-neutral-900 transition-colors duration-700 block"
           >

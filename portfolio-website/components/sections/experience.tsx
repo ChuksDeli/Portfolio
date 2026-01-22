@@ -34,7 +34,6 @@ export default function Experience(): JSX.Element {
         <h2 className="text-4xl font-bold text-white mb-20">Experience</h2>
 
         <div className="relative pl-10 space-y-12">
-          {/* vertical line */}
           <div className="absolute left-2 top-0 h-full w-px bg-neutral-300 dark:bg-neutral-700" />
 
           {experiences.map((exp, index) => (
@@ -46,10 +45,8 @@ export default function Experience(): JSX.Element {
               transition={{ duration: 0.4 }}
               className="relative"
             >
-              {/* dot */}
               <span className="absolute -left-9.5 top-6 h-3 w-3 rounded-full bg-black dark:bg-white" />
 
-              {/* content box */}
               <div className=" border  dark:border-neutral-700 bg-black p-8">
                 <p className="text-sm font-medium text-neutral-500 mb-2">
                   {exp.year}

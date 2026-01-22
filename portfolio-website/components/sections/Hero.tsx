@@ -40,7 +40,6 @@ export default function Hero() {
           whileInView="show"
           className="text-white lg:px-20 px-5 my-auto place-content-center h-[87vh] flex flex-col"
         >
-          {/* ✅ NOW VISIBLY ANIMATES */}
           <motion.p
             variants={items}
             className="text-neutral-500 font-light tracking-widest"
@@ -57,13 +56,12 @@ export default function Hero() {
 
           <motion.p
             variants={items}
-            className="text-neutral-500 lg:text-2xl text-[21px] font-light pt-5 max-w-[600px]"
+            className="text-neutral-500 lg:text-2xl text-[21px] font-light pt-5 max-w-150"
           >
             Building expressive, motion-driven, high-performance web interfaces
           </motion.p>
 
           <motion.div className="flex gap-6 items-center py-10">
-            {/* ✅ BUTTON NOW ANIMATES */}
             <motion.button
               variants={items}
               className="lg:px-10 px-5 py-4 border border-white overflow-hidden group relative cursor-pointer"
@@ -77,7 +75,6 @@ export default function Hero() {
               </span>
             </motion.button>
 
-            {/* ✅ BUTTON NOW ANIMATES */}
             <motion.button
               variants={items}
               className="lg:px-10 px-5 py-4 border hover:border-neutral-600 transition-colors duration-500 cursor-pointer border-neutral-800"
