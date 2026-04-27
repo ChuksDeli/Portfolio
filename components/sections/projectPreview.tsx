@@ -253,17 +253,17 @@ function ProjectDetailDrawer({
             </div>
 
             <div
-              className="flex-1 overflow-y-auto px-6 sm:px-8 py-7 space-y-8 [&::-webkit-scrollbar]:w-[3px] [&::-webkit-scrollbar-track]:bg-transparent [&::-webkit-scrollbar-thumb]:bg-neutral-700 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb:hover]:bg-neutral-500"
+              className="flex-1 overflow-y-auto px-6 sm:px-8 py-7 space-y-8 [&::-webkit-scrollbar]:w-0.75 [&::-webkit-scrollbar-track]:bg-transparent [&::-webkit-scrollbar-thumb]:bg-neutral-700 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb:hover]:bg-neutral-500"
               style={{ scrollbarWidth: "thin", scrollbarColor: "#404040 transparent" }}
             >
-              <div className="min-h-[120px]">
+              <div className="min-h-30">
                 <p className="text-[10px] tracking-[0.22em] text-neutral-600 uppercase mb-3">
                   About
                 </p>
                 <p className="text-neutral-400 text-[14px] sm:text-[15px] leading-[1.9] whitespace-pre-line">
                   {displayedText}
                   {isTyping && (
-                    <span className="inline-block w-[2px] h-[1em] bg-neutral-400 ml-[2px] align-middle animate-pulse" />
+                    <span className="inline-block w-0.5 h-[1em] bg-neutral-400 ml-0.5 align-middle animate-pulse" />
                   )}
                 </p>
               </div>
@@ -300,7 +300,7 @@ function ProjectDetailDrawer({
                   <div className="space-y-2">
                     {project.details.highlights.map((h) => (
                       <div key={h} className="flex items-start gap-3">
-                        <span className="mt-[8px] w-1 h-1 bg-neutral-600 rounded-full shrink-0" />
+                        <span className="mt-2 w-1 h-1 bg-neutral-600 rounded-full shrink-0" />
                         <p className="text-neutral-400 text-[13px] sm:text-[14px] leading-relaxed">
                           {h}
                         </p>
