@@ -42,7 +42,7 @@ const featuredProjects: Project[] = [
         "Cinema Hub is a modern, API-driven web application designed to provide users with a seamless movie discovery experience. The platform integrates with the TMDB API to deliver real-time data on trending, popular, and newly released movies, allowing users to explore content dynamically.\n\nThe application focuses heavily on performance and user experience, implementing smooth page transitions and efficient data fetching strategies to ensure responsiveness. Users can search for movies, view detailed information, and navigate through different categories without friction.\n\nFrom an architectural standpoint, the project demonstrates strong use of component-based design, reusable UI patterns, and clean state management. Dynamic routing enables each movie to have its own dedicated page, enhancing both usability and scalability.\n\nThe interface is designed with a modern, minimal aesthetic, emphasizing clarity and accessibility while maintaining visual engagement through motion and interaction.",
       techStack: ["React", "TMDB API", "Tailwind CSS", "React Router", "Framer Motion"],
       liveLink: "https://cinema-hub-tau.vercel.app/",
-      githubLink: "https://github.com/yourusername/cinema-hub",
+      githubLink: "https://github.com/ChuksDeli/cinema-hub.git",
     },
   },
   {
@@ -58,7 +58,7 @@ const featuredProjects: Project[] = [
         "BillSplitSafe is a web-based application designed to simplify how groups manage and track shared expenses. It addresses a common real-world problem faced by students, flatmates, and shared households where managing contributions often leads to confusion, forgotten payments, and disputes.\n\nThe platform allows users to record shared expenses, automatically calculate individual balances, and keep track of payment confirmations in a transparent and structured way. By eliminating manual calculations and unclear records, BillSplitSafe improves accountability and reduces friction between users.\n\nThe application includes core features such as user registration and authentication, expense entry and tracking, automatic balance computation, and a summary dashboard that gives users a clear overview of who owes what. The interface is designed to be responsive and intuitive, ensuring usability across different devices.\n\nBillSplitSafe also considers sustainability from a product standpoint, with a lightweight monetization model based on non-intrusive advertisements displayed only in low-interaction areas such as summary views.",
       techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
       liveLink: "https://bill-split-safe.vercel.app/",
-      githubLink: "https://github.com/yourusername/billsplitsafe",
+      githubLink: "https://github.com/ChuksDeli/BillSplitSafe.git",
     },
   },
   {
@@ -74,7 +74,7 @@ const featuredProjects: Project[] = [
         "The Admin Dashboard is a scalable, enterprise-style interface built to manage and visualize structured data efficiently. It is designed to simulate real-world SaaS dashboard environments, focusing on usability, modularity, and responsiveness.\n\nThe application features reusable UI components, structured layouts, and responsive table systems that adapt across devices. It emphasizes clean data presentation, allowing users to interact with and interpret information quickly.\n\nA key strength of the project lies in its component architecture, where elements such as cards, tables, and navigation systems are designed for reusability and consistency. This approach mirrors real-world frontend development practices in large-scale applications.\n\nThe dashboard also incorporates basic data visualization techniques and interactive UI behaviors, enhancing user engagement while maintaining clarity.",
       techStack: ["React", "Tailwind CSS", "JavaScript", "Chart.js"],
       liveLink: "https://dashboard-murex-eta-54.vercel.app/",
-      githubLink: "https://github.com/yourusername/admin-dashboard",
+      githubLink: "https://github.com/ChuksDeli/personal-dashboard.git",
     },
   },
 ];
@@ -105,7 +105,7 @@ const internshipProjects: Project[] = [
         "Vendor management features",
       ],
       liveLink: "https://e-transver.vercel.app/",
-      githubLink: "https://github.com/yourusername/e-transver",
+      githubLink: "https://github.com/deveset/E-transver.git",
     },
   },
 ];
